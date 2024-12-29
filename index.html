@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>bmit</title>
+</head>
+<body>
+    <nav>
+        <p>Only on PC</p>
+        <p>สำหรับขนาดหน้าจอบน PC เท่านั้นไม่รองรับขนาดหน้าจอมือถือ</p>
+    </nav>
+    <div class="bmi">
+        <h3>โปรแกรมคำนวนดัชนีมวลกาย BMI</h3>
+        <form action="">
+            <input type="number" placeholder="น้ำหนักของคุณ (กิโลกรัม)" id="weight">
+            <input type="number" placeholder="ส่วนสูงของคุณ (เมตร)" id="height">
+            <button type="button" onclick="calculateBMI()">คำนวน</button>
+        </form>
+    </div>
+    <div class="result" id="result"></div>
+    <script src="script.js"></script>
+</body>
+
+</body>
+</html>

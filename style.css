@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: #333;
+}
+nav{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    background-color: #28a745;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.5);
+}
+.bmi{
+    background-color: #fff;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px auto;
+    border-radius: 12px;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.bmi form{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bmi form input{
+    width: 100%;
+    padding: 10px 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.bmi form button{
+    padding: 10px 7px;
+    background-color:  #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.result{
+    background-color: #fff;
+    width: 0px;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 7px;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding: 0 10px;
+    transition-duration: 0.7s;
+    opacity: 0;
+}
+
+.display{
+    opacity: 1;
+    width: 300px;
+}
+
+.resulthead{
+    color: red;
+    margin-bottom: 20px;
+}
